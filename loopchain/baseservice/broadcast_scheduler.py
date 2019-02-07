@@ -131,7 +131,6 @@ class BroadcastScheduler(CommonThread):
         """등록된 모든 Peer 의 동일한 gRPC method 를 같은 파라미터로 호출한다.
         """
         # logging.warning("broadcast in process ==========================")
-        # logging.debug("pickle method_param: " + str(pickle.dumps(method_param)))
 
         kwargs = {}
         if retry_times is not None:
