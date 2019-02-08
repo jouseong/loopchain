@@ -25,7 +25,7 @@ class Epoch:
     COMPLAIN_VOTE_HASH = "complain_vote_hash_for_reuse_Vote_class"
 
     def __init__(self, height: int, leader_id=None):
-        util.logger.notice(f"New Epoch Start height({height}) leader_id({leader_id})")
+        # util.logger.notice(f"New Epoch Start height({height}) leader_id({leader_id})")
         self.height = height
         self.leader_id = leader_id
 
