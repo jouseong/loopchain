@@ -179,7 +179,8 @@ If you want to load and view your testnet account on ICONex Chrome extension, pl
 
 Now that you have received a sufficient amount of icx, you can use it to send transactions.
 We provided the minimal settings for the simple coin transfer in the `sendtx_testnet.json` file.
-The address to which icx is sent(`to`) is the address the ICON developers usually use when testing. Default value is 0 ICX and you can change the address or add some value if you want.
+The address to which icx is sent(`to`) is the address the ICON developers usually use when testing. Default value is 0 ICX and you can change the address or add some value if you want. 
+(Please refer [here](https://github.com/icon-project/icon-rpc-server/blob/master/docs/icon-json-rpc-v3.md#icx_sendtransaction) for icx_sendTransaction API document.)
 
 ```javascript
 // sendtx_testnet.json

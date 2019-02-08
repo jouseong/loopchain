@@ -31,6 +31,7 @@ Loopchain development and execution requires following environments.
     ```
 
     If you're using package manager, you can install all of them through your package manager.
+    
     MacOS, for example)
     
     ```bash
